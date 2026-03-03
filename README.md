@@ -4,6 +4,7 @@ A Discord bot that monitors a TeamSpeak server via the WebQuery API and displays
 
 > [!CAUTION]
 > ONLY USE THIS IN A NEW EMPTY DISCORD CHANNEL
+> 
 > This will delete the chat history of the discord channel it is assigned to
 
 ## Features
