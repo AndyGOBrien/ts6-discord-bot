@@ -3,7 +3,7 @@
 A Discord bot that monitors a TeamSpeak server via the WebQuery API and displays the currently connected users in a Discord channel. The bot maintains a single, auto-updating embed showing who's online and sets its activity status to reflect the current user count.
 
 > [!CAUTION]
-> ONLY USE THIS IN A NEW EMPTY DISCORD CHANNEL
+> ONLY USE THIS IN A NEW EMPTY DISCORD TEXT CHANNEL
 > 
 > This will delete the chat history of the discord channel it is assigned to
 
