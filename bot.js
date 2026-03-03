@@ -3,7 +3,7 @@ const { Client, GatewayIntentBits, EmbedBuilder, PermissionsBitField, ActivityTy
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 const config = {
   // TeamSpeak
-  TS_API_BASE:   process.env.TS_API_BASE   || 'http://10.10.100.20:10880/1',
+  TS_API_BASE:   process.env.TS_API_BASE   || 'http://localhost:10080/1',
   TS_API_KEY:    process.env.TS_API_KEY    || 'YOUR_TS_API_KEY',
   POLL_INTERVAL: parseInt(process.env.POLL_INTERVAL || '5000'),
   TS_INVITE_URL: process.env.TS_INVITE_LINK || null,
