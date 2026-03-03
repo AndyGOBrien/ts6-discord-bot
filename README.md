@@ -45,7 +45,7 @@ docker run -d --name ts6-discord-bot \
 ```yaml
 services:
   ts6-discord-bot:
-    build: .
+    image: ghcr.io/andygobrien/ts6-discord-bot:latest
     container_name: ts6-discord-bot
     restart: unless-stopped
     environment:
